@@ -11,7 +11,7 @@ if(isset($_POST['signup']))
 	$gender=$_POST['gender'];
 	$weight=$_POST['weight'];
 	$height=$_POST['height'];
-	$BMI=$weight/$height*2;
+	$BMI=($weight/$height/$height)*10000;
 	$bloodgroup=$_POST['bloodgroup'];
 	$food=$_POST['food'];
 	$health=$_POST['health'];
