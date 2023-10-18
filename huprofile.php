@@ -29,7 +29,7 @@ if(isset($_SESSION['logedin']) && $_SESSION['logedin']==true) {
             $weight=$_POST['weight'];
             $height=$_POST['height'];
             $bloodgroup=$_POST['bloodgroup'];
-            $BMI=$weight/$height*2;
+            $BMI=($weight/$height/$height)*10000;
             $health=$_POST['health'];
             $food=$_POST['food'];
 
