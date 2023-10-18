@@ -72,7 +72,7 @@ if (strlen($_SESSION['adminid']==0)) {
         <div class="col-md-12">
           <div class="tile">
             <div class="tile-body">
-            <center><h3>Excercie & Fitnes Activity</h3></center><hr>
+            <center><h3>Exercise & Fitness Activity</h3></center><hr>
               <table class="table table-hover table-bordered" id="sampleTable">
                 <thead>
                   <tr>
